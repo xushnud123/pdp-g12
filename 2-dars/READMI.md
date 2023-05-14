@@ -34,8 +34,22 @@
     <!-- todo:|| lang: element tarkibining tiluni belgilaydi-->
 
 12. `<br/>`, `<meta charset="UTF-8"/>`
-    <!-- todo: UTF-8 bu ingliz tilidagi barcha oddiy belgilar to'plami -->
+    <!-- todo: UTF-8 bu ingliz tilidagi barcha belgilar to'plami -->
 
 13. `<div></div>` element
 
 14. `<br/>` and `<hr/>`
+
+15. `<a href=""> </a>` anker element `about.html`
+
+    ## ``<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">MDN </a>`
+
+    ## `<a href="mailto:12xushnudbek34@gmail.com">Send email</a>`
+
+    ## `<a href="tel:+123456789">Phone</a>`
+
+16. `<meta charset="UTF-8" />` and `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+
+17. `Entities` mahsus belgilar `&nbsp;`,`&copy;`
+
+18. Lorem Ipsum
