@@ -26,21 +26,23 @@
 
 8.  Cursive matn uchun `<i></i>` => `<em></em>`
 
-9.  List (ro'yxat) elementlari unordered (betartib) ro'yxat: `<ul></ul>`, ordered (tartiblangan) ro'yxat `<ol></ol>`
+9.  `Entities` mahsus belgilar `&nbsp;`,`&copy;`
 
-10. images `<img src="" alt=""/>` and `<video src=""></video>`
+10. List (ro'yxat) elementlari unordered (betartib) ro'yxat: `<ul></ul>`, ordered (tartiblangan) ro'yxat `<ol></ol>`
 
-11. Attributes: HTML attribute lari HTML elementlari haqida qo'shimcha ma'lumot beradi. `<html lang="en"></html>`
+11. images `<img src="" alt=""/>` and `<video src=""></video>`
+
+12. Attributes: HTML attribute lari HTML elementlari haqida qo'shimcha ma'lumot beradi. `<html lang="en"></html>`
     <!-- todo:|| lang: element tarkibining tiluni belgilaydi-->
 
-12. `<br/>`, `<meta charset="UTF-8"/>`
+13. `<br/>`, `<meta charset="UTF-8"/>`
     <!-- todo: UTF-8 bu ingliz tilidagi barcha belgilar to'plami -->
 
-13. `<div></div>` element
+14. `<div></div>` element
 
-14. `<br/>` and `<hr/>`
+15. `<br/>` and `<hr/>`
 
-15. `<a href=""> </a>` anker element `about.html`
+16. `<a href=""> </a>` anker element `about.html`. Id lik elementga uzatish
 
     ## ``<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">MDN </a>`
 
@@ -48,8 +50,8 @@
 
     ## `<a href="tel:+123456789">Phone</a>`
 
-16. `<meta charset="UTF-8" />` and `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+    ## `<a href="/images/myw3schoolsimage.jpg" download>`
 
-17. `Entities` mahsus belgilar `&nbsp;`,`&copy;`
+17. `<meta charset="UTF-8" />` and `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
 
 18. Lorem Ipsum
