@@ -37,3 +37,5 @@
     <!-- todo: UTF-8 bu ingliz tilidagi barcha oddiy belgilar to'plami -->
 
 13. `<div></div>` element
+
+14. `<br/>` and `<hr/>`
