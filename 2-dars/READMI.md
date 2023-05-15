@@ -32,8 +32,12 @@
 
 11. images `<img src="" alt=""/>` and `<video src=""></video>`
 
+    ## Video Attributes
+
+    # `controls`, `autoplay`,`loop`
+
 12. Attributes: HTML attribute lari HTML elementlari haqida qo'shimcha ma'lumot beradi. `<html lang="en"></html>`
-    <!-- todo:|| lang: element tarkibining tiluni belgilaydi-->
+    <!-- todo: lang: element tarkibining tiluni belgilaydi-->
 
 13. `<br/>`, `<meta charset="UTF-8"/>`
     <!-- todo: UTF-8 bu ingliz tilidagi barcha belgilar to'plami -->
