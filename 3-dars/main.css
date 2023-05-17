@@ -1,0 +1,32 @@
+/* p {
+  color: blueviolet;
+  font-size: 30px;
+  color: red;
+}
+h1 {
+  color: bisque;
+}
+
+body {
+  margin: 0;
+}
+
+#lorem {
+  color: black;
+}
+
+.product {
+  color: rgb(69, 191, 62);
+}
+
+#lorem {
+  color: blueviolet;
+} */
+
+a[href^="https"] {
+  color: red;
+}
+
+.box1 ~ h1 {
+  color: dodgerblue;
+}

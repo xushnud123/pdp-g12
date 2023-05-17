@@ -1,0 +1,102 @@
+/* a[href^="https"][href$="com"] {
+  color: orange;
+}
+ */
+body {
+  margin: 10px;
+}
+
+/* #product p {
+  color: red;
+} */
+
+/* #product > p {
+  color: red;
+} */
+
+/* #product + p {
+  color: red;
+} */
+
+/* #product ~ p {
+  color: red;
+} */
+/*
+article :first-child {
+  font-size: 140%;
+  font-style: italic;
+} */
+
+/* article p:first-of-type {
+  font-size: 140%;
+  font-style: italic;
+} */
+
+/* article :last-of-type {
+  color: red;
+} */
+
+/* article :last-child {
+  color: red;
+} */
+
+/* ul li:nth-child(odd) {
+  color: deeppink;
+} */
+
+/* ul li:nth-child(even) {
+  color: deeppink;
+} */
+
+/* a:visited,
+a:link {
+  color: dodgerblue;
+} */
+/*
+a:hover,
+a:focus {
+  color: deeppink;
+} */
+
+/* p::first-letter {
+  font-size: 140%;
+  color: deeppink;
+} */
+
+/* span::first-letter { // not working
+  font-size: 140%;
+  color: deeppink;
+} */
+
+/* p::first-line {
+  font-weight: bold;
+} */
+
+/* p::selection {
+  background-color: pink;
+} */
+
+/* .product {
+  color: deeppink;
+} */
+
+/* h1 {
+  color: dodgerblue;
+} */
+
+/* p {
+  color: dodgerblue;
+  font-size: 25px;
+} */
+
+/* strong {
+  color: initial;
+} */
+
+.box {
+  width: 300px;
+  height: 400px;
+  /* background: linear-gradient(45deg, dodgerblue, deeppink 90%); */
+  /* background: radial-gradient(dodgerblue, deeppink); */
+  background: radial-gradient(circle at top left, dodgerblue, deeppink);
+}
