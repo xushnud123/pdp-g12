@@ -8,13 +8,13 @@
 
 FINISH:
 
-1. Tables `table,tr, th ,td, thead, tbody`
+3. Tables `table,tr, th ,td, thead, tbody`
 
-2. Containers: `<div></div>` and `<span></span>`
+4. Containers: `<div></div>` and `<span></span>`
    <!-- todo: Block-level element har doim yangi qatordan boshlanadi va butun bo'sh joyni oladi. -->
    <!-- todo: Inline element content kengligicha egallaydi holos -->
 
-3. Semantic elementlar
+5. Semantic elementlar
 
    # article
 
@@ -39,7 +39,7 @@ FINISH:
 
    # section
 
-4. CSS
+6. CSS
 
    # Inline
 
@@ -49,10 +49,10 @@ FINISH:
 
    FINISH:
 
-5. Normalize css
+7. Normalize css
    `https://necolas.github.io/normalize.css/`
 
-6. ## Selectors
+8. ## Selectors
 
    # Type `body {}`
 
@@ -162,6 +162,14 @@ FINISH:
 
     # `background: radial-gradient(circle at top left,dodgerblue, deeppink);`
 
+16. # Soyalar: box-shadow `box-shadow:4px 4px 30px grey`
+
+17. # Chegaralar: border `border: 1px solid red;` , border-radius
+
+18. # `<button type=""></button>`
+
 # CSS SHAPES `css-tricks`
 
 # `ul>li*5{item $}`
+
+# `list-style none`
