@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* html {
+  font-size: 20px;
+} */
+
+body {
+  margin: 10px;
+}
+
+/* a:visited {
+  color: deeppink;
+}
+
+a:focus {
+  color: deepskyblue;
+}
+
+.box:last-of-type {
+  color: red;
+}
+
+a:link {
+  color: yellow;
+}
+
+button {
+  padding: 15px 30px;
+}
+
+button:active {
+  background: red;
+  color: #fff;
+}
+
+.boxes {
+  border: 3px solid grey;
+  padding: 20px 30px;
+  width: 400px;
+}
+
+.boxes::before {
+  content: "👋 Hi 👋";
+  display: block;
+  width: 200px;
+  height: 50px;
+  background: rgb(219, 57, 248);
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.boxes::after {
+  content: "👋 Choos 👋";
+  display: block;
+  width: 200px;
+  height: 50px;
+  background: rgb(57, 248, 102);
+  color: #fff;
+  padding: 10px 20px;
+} */
+
+/* .boxes {
+  border: 3px solid grey;
+  width: 250px;
+  height: 250px;
+  overflow: hidden auto;
+} */
+
+.container {
+  width: 90vw;
+  height: 80vh;
+  border: 3px solid lightgrey;
+  position: relative;
+}
+
+.box {
+  width: 10rem;
+  height: 10rem;
+}
+
+.box_1 {
+  background: deepskyblue;
+}
+.box_2 {
+  background: deeppink;
+  /* position: relative; */
+  /* position: absolute; */
+  position: fixed;
+  top: 0;
+}
+.box_3 {
+  background: yellow;
+}

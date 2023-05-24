@@ -3,11 +3,11 @@
 *::before {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
 body {
-  /* margin: 8px; */
+  margin: 8px;
   /* background: #192f48; */
 }
 /* html {
@@ -169,7 +169,7 @@ ul {
   list-style-type: none;
 } */
 
-.wrapper {
+/* .wrapper {
   width: 100%;
   height: 100vh;
   background: #192f48;
@@ -223,4 +223,125 @@ ul {
   line-height: 60px;
   letter-spacing: -2px;
   color: #ffffff;
+} */
+/*
+a:hover {
+  color: red;
+}
+a:visited {
+  color: rgb(255, 0, 221);
+  font-size: 30px;
+}
+a:active {
+  color: yellow;
+}
+
+a:focus {
+  color: rgb(3, 137, 27);
+} */
+/* a:visited {
+  color: deeppink;
+} */
+
+/* .container {
+  margin: 50px;
+  width: 10em;
+  font-size: 20px;
+  height: 200px;
+  border: 3px solid red;
+  overflow: auto;
+  overflow: hidden auto;
+} */
+
+/* .container .box {
+  width: 250px;
+  height: 250px;
+  border: 3px solid rgb(0, 34, 255);
+  background: transparent;
+} */
+
+/* .container {
+  width: 100%;
+  border: 4px solid silver;
+  position: relative;
+}
+
+.container .box {
+  width: 5rem;
+  height: 5rem;
+}
+.container .box:nth-child(1) {
+  background-color: deeppink;
+}
+
+.container .box:nth-child(2) {
+  background: yellow;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.container .box:nth-child(3) {
+  background-color: deepskyblue;
+} */
+
+/* .tweet {
+  border: 3px solid lightgray;
+}
+
+.cf::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.tweet .avatar {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  width: max-content;
+  float: left;
+  margin-right: 15px;
+}
+.tweet .avatar img {
+  width: 15rem;
+  height: auto;
+}
+
+.tweet p {
+  font-size: 18px;
+}
+.tweet p:nth-of-type(2) {
+  margin-top: 40px;
+}
+
+.clear {
+  clear: both;
+} */
+
+/* # FlexBox */
+.container {
+  border: 3px solid lightgrey;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* flex-wrap: wrap;
+  align-content: center; */
+  height: 90vh;
+}
+
+.container .box {
+  flex-basis: 10rem;
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 8rem;
+  height: 8rem;
+  background: gold;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.container .box:nth-child(1) {
+  flex-grow: 2;
+  flex-shrink: 0;
 }

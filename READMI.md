@@ -1,18 +1,4 @@
-1.  ## Relational selectors
-
-    # `#product p` <!--todo: product id lik element ichidagi barcha p elementlariga tasir qiladi-->
-
-    # `#product > p` <!--todo: product id lik element ichidagi tog'ridan-to'g'ri bolasi bo'lgan p elementlariga tasir qiladi-->
-
-    # `#product + p` <!--todo: product id lik elementdan keyin kelgan p elementiga tasir qiladi.Element bilan p o'rtasida boshqa element bo'lsa tasir qilmaydi-->
-
-    # `#product ~ p` <!--todo: product id lik elementdan keyin kelgan p elementlariga tasir qiladi-->
-
-    FINISH:
-
-2.  ## Pseudo class Selectors
-
-    # `first-child` <!-- todo: tag turidan qatiy nazar birinchi elementni oladi -->
+1.  ## Pseudo class Selectors
 
     # `first-of-type` <!-- todo: harxil turdagi tag larning birinchisini oladi -->
 
@@ -24,41 +10,52 @@
 
     # `:link` <!-- todo: kirilmagan linklarga style berish uchun -->
 
-    # `:hover` <!-- todo: sichqonchani link ustiga etganda style berish uchun -->
-
     # `:focus` <!-- todo: tab bilan bosilganda style berish uchun -->
 
     # `:active` <!--todo:: :active CSS psevdo-sinfi foydalanuvchi tomonidan faollashtirilayotgan elementni (masalan, tugma) ifodalaydi. Sichqonchadan foydalanganda "faollashtirish" odatda foydalanuvchi sichqonchaning asosiy tugmachasini bosganida boshlanadi. -->
 
-3.  ## Pseudo-element Selectors
-
-    # `::first-letter` <!-- todo: ::first-letter CSS psevdoelementi blok-darajali elementning birinchi qatorining birinchi harfiga uslublarni qo'llaydi, lekin faqat boshqa kontent (masalan, tasvirlar yoki qator jadvallar) bo'lmasa. -->
-
-    # `::first-line` <!-- todo: birinchi qatorga style berish uchun-->
-
-    # `::selection` <!--todo: ::selection CSS psevdo-elementi hujjatning foydalanuvchi tomonidan ta'kidlangan qismiga uslublarni qo'llaydi (masalan, matn bo'ylab sichqonchani bosish va sudrab borish). -->
+2.  ## Pseudo-element Selectors
 
     # `::before, ::after`
 
-4.  ## Inheritance
+    FINISH:
 
-5.  ## Box model `margin` and `padding`
-
-6.  ## Sizing Element `width` and `height`
-
-    # box-sizing:border-box;
+3.  ## Sizing Element `width` and `height`
 
     # display: `block | inline | inline-block | none | flex | grid`
 
-7.  ## Universal selektor `*`
+4.  ## Overflow: `visible | hidden | auto | scroll`
 
-8.  ## Border-radius
+    # `overflow: hidden auto` hidden => x, auto => y
 
-9.  ## Overflow: `visible | hidden | auto | scroll`
+5.  ## Measurement Units: `px | % | vw | vh | em | rem`
 
-10. ## Measurement Units: `px | % | vw | vh | em | rem`
+6.  ## Positioning: `relative | absolute | fixed`
 
-11. ## Positioning: `relative | absolute | fixed`
+7.  ## Floating elements: `float: left | right`
+
+    ## Clear: `left | right | both` <!--todo: Suzuvchi bo'lmagan bloklarga qo'llanilganda, u elementning chegara chetini barcha tegishli floatlarning chetidan past bo'lguncha pastga siljitadi. Suztirilmagan blokning yuqori cheti qulab tushadi.->
+
+8.  ## text-transform and text-decoration
+
+9.  ## FlexBox
+
+    # flex-direction:`column | row | column-reverse | row-reverse`
+
+    # flex-wrap: wrap
+
+    # align-content: center
+
+    # align-self: `flex-start | flex-end`
+
+    # flex-basic: 5rem <!-- box lar uzunligini belgilaydi -->
+
+    # `flex-grow: 1` <!-- todo: Flex-grow CSS xususiyati moslashuvchan o'sish omilini o'rnatadi, bu egiluvchan konteynerning qolgan maydonining qancha qismini moslashuvchan elementning asosiy o'lchamiga belgilash kerakligini belgilaydi.-->
+
+    # `flex-shrink:1` <!-- todo: Flex-shrink CSS xususiyati moslashuvchan elementning moslashuvchan qisqarish faktorini o'rnatadi. Agar barcha egiluvchan elementlarning o'lchami egiluvchan konteynerdan kattaroq bo'lsa, elementlar egiluvchan kichraytirishga mos ravishda kichrayadi. -->
+
 <!--# Eslatmalar -->
 
 # `list-style none`
+
+# `clearfix => cf`
