@@ -79,8 +79,15 @@ nav .box_ul ul li {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 50px;
   position: relative;
   z-index: 1;
+}
+
+.section_two .card_left {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .section_two .card_left .cards_left_p {
@@ -92,4 +99,55 @@ nav .box_ul ul li {
   font-size: 18px;
   line-height: 22px;
   color: #ffffff;
+}
+
+.section_two .card_center .line {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #fbd784;
+  margin-left: 104px;
+  position: relative;
+}
+
+.section_two .card_center .line::before {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  width: 72px;
+  height: 2px;
+  left: -104px;
+  top: 10px;
+  background: #fbd784;
+}
+
+.section_two .card_center h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 66px;
+  line-height: 80px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+header .mountain {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -60%;
+}
+
+header .mountain img {
+  width: 100%;
+  height: auto;
+}
+
+.section_three {
+  width: 100vw;
+  min-height: 600px;
 }
