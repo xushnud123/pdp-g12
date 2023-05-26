@@ -38,7 +38,15 @@
 
 8.  ## text-transform and text-decoration
 
-9.  ## FlexBox
+    # text-decoration <!--todo: Matnni bezatish stenografiyasi CSS xususiyati matndagi dekorativ chiziqlar ko'rinishini o'rnatadi. Bu matn-bezatish-chiziq, matn-bezatish-rang, matn-bezatish-uslubi va yangiroq matn-bezatish-qalinligi xossalarining qisqartmasi. -->
+
+    `text-decoration: underline wavy deeppink;`
+
+    # text-transform <!--todo: Undan matn katta yoki kichik harflarda yoki har bir so'z bosh harf bilan ko'rinishi uchun ishlatilishi mumkin. Bu, shuningdek, ruby ​​uchun o'qishni yaxshilashga yordam beradi. -->
+
+    `text-transform: capitalize | uppercase | lowercase | none`
+
+9.  ## FlexBox <!-- flexbox bir qator elementlarni qator yoki ustunga  joylashtiradi -->
 
     # flex-direction:`column | row | column-reverse | row-reverse`
 
@@ -54,7 +62,31 @@
 
     # `flex-shrink:1` <!-- todo: Flex-shrink CSS xususiyati moslashuvchan elementning moslashuvchan qisqarish faktorini o'rnatadi. Agar barcha egiluvchan elementlarning o'lchami egiluvchan konteynerdan kattaroq bo'lsa, elementlar egiluvchan kichraytirishga mos ravishda kichrayadi. -->
 
-<!--# Eslatmalar -->
+10. ## Display Grid
+
+    # grid-template-rows: 100px 100px;
+
+    # grid-template-columns: 100px 100px;
+
+    # grid-template: repeat(3, 100px) / repeat(2, 100px);
+
+    <!-- box larga tasir qiladi-->
+
+    # justify-items: left | center | right
+
+    # align-items: top | center | bottom
+
+    <!-- containerga tasir qiladi-->
+
+    # justify-content: left | center | right;
+
+    # align-content: top | center | bottom;
+
+    <!-- oraliq berish -->
+
+    # row-gap | column-gap | gap
+
+    <!--# Eslatmalar -->
 
 # `list-style none`
 

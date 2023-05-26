@@ -317,14 +317,14 @@ a:focus {
 } */
 
 /* # FlexBox */
-.container {
+/* .container {
   border: 3px solid lightgrey;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  /* flex-wrap: wrap;
-  align-content: center; */
+  flex-wrap: wrap;
+  align-content: center;
   height: 90vh;
 }
 
@@ -344,4 +344,69 @@ a:focus {
 .container .box:nth-child(1) {
   flex-grow: 2;
   flex-shrink: 0;
+} */
+
+/* p {
+  text-decoration: underline wavy deeppink;
+} */
+
+/* .container {
+  display: grid;
+  height: 90vh; */
+/* grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px; */
+/* grid-template-rows: repeat(3, 100px);
+  grid-template-columns: 150px repeat(2, 100px); */
+/* grid-template: 100px auto 100px / 30fr 70fr;
+  border: 3px solid lightgray; */
+/* justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center; */
+/* gap: 10px;
+  grid-template-areas:
+    "header  header"
+    "sidebar main"
+    "sidebar footer";
+} */
+
+/* .container .box {
+  width: 5rem;
+  height: 5rem;
+  background: gold;
+} */
+/*
+.box:first-child {
+  justify-self: center;
+} */
+
+/* .box_one {
+  grid-area: header;
+}
+
+.box_three {
+  grid-area: sidebar;
+}
+
+.box_four {
+  grid-area: footer;
+} */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .box {
+  flex-basis: 10rem;
+  height: 5rem;
+  background: gold;
+  margin: 1rem;
+  flex-grow: 1;
+}
+
+.container .box_one {
+  /* flex-basis: 5rem; */
+  flex-grow: 2;
 }
