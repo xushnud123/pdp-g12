@@ -86,6 +86,10 @@
 
     # row-gap | column-gap | gap
 
+    <!-- panjaralarni birlashtirish -->
+
+    # grid-row | grid-column
+
     <!--# Eslatmalar -->
 
 # `list-style none`
