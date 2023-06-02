@@ -1,97 +1,28 @@
-1.  ## Pseudo class Selectors
+1. ## Position: static | sticky 👍
 
-    # `first-of-type` <!-- todo: harxil turdagi tag larning birinchisini oladi -->
+2. ## element size width | height: 100% 👍
 
-    # `last-child` <!-- todo: tag turidan qatiy nazar oxirgisini oladi -->
+3. ## Flexbox 👍
 
-    # `last-of-type` <!-- todo: harxil turdagi tag larning oxirgisini oladi -->
+   # flex-basic
 
-    # `:visited` <!-- todo: kirilgan linklarga style berish uchun -->
+   # flex-grow
 
-    # `:link` <!-- todo: kirilmagan linklarga style berish uchun -->
+   # flex-shrink
 
-    # `:focus` <!-- todo: tab bilan bosilganda style berish uchun -->
+   # order
 
-    # `:active` <!--todo:: :active CSS psevdo-sinfi foydalanuvchi tomonidan faollashtirilayotgan elementni (masalan, tugma) ifodalaydi. Sichqonchadan foydalanganda "faollashtirish" odatda foydalanuvchi sichqonchaning asosiy tugmachasini bosganida boshlanadi. -->
+4. ## Grid `fr` 👍
 
-2.  ## Pseudo-element Selectors
+5. ## visibility: visible; 👍
 
-    # `::before, ::after`
+6. ## visibility:hidden vs display:none vs overflow:hidden 👍
 
-    FINISH:
+7. ## css variable `:root {
 
-3.  ## Sizing Element `width` and `height`
+   --blue: #1e90ff;
+   --white: #ffffff;
+   }
+   `
 
-    # display: `block | inline | inline-block | none | flex | grid`
-
-4.  ## Overflow: `visible | hidden | auto | scroll`
-
-    # `overflow: hidden auto` hidden => x, auto => y
-
-5.  ## Measurement Units: `px | % | vw | vh | em | rem`
-
-6.  ## Positioning: `relative | absolute | fixed`
-
-7.  ## Floating elements: `float: left | right`
-
-    ## Clear: `left | right | both` <!--todo: Suzuvchi bo'lmagan bloklarga qo'llanilganda, u elementning chegara chetini barcha tegishli floatlarning chetidan past bo'lguncha pastga siljitadi. Suztirilmagan blokning yuqori cheti qulab tushadi.->
-
-8.  ## text-transform and text-decoration
-
-    # text-decoration <!--todo: Matnni bezatish stenografiyasi CSS xususiyati matndagi dekorativ chiziqlar ko'rinishini o'rnatadi. Bu matn-bezatish-chiziq, matn-bezatish-rang, matn-bezatish-uslubi va yangiroq matn-bezatish-qalinligi xossalarining qisqartmasi. -->
-
-    `text-decoration: underline wavy deeppink;`
-
-    # text-transform <!--todo: Undan matn katta yoki kichik harflarda yoki har bir so'z bosh harf bilan ko'rinishi uchun ishlatilishi mumkin. Bu, shuningdek, ruby ​​uchun o'qishni yaxshilashga yordam beradi. -->
-
-    `text-transform: capitalize | uppercase | lowercase | none`
-
-9.  ## FlexBox <!-- flexbox bir qator elementlarni qator yoki ustunga  joylashtiradi -->
-
-    # flex-direction:`column | row | column-reverse | row-reverse`
-
-    # flex-wrap: wrap
-
-    # align-content: center
-
-    # align-self: `flex-start | flex-end`
-
-    # flex-basic: 5rem <!-- box lar uzunligini belgilaydi -->
-
-    # `flex-grow: 1` <!-- todo: Flex-grow CSS xususiyati moslashuvchan o'sish omilini o'rnatadi, bu egiluvchan konteynerning qolgan maydonining qancha qismini moslashuvchan elementning asosiy o'lchamiga belgilash kerakligini belgilaydi.-->
-
-    # `flex-shrink:1` <!-- todo: Flex-shrink CSS xususiyati moslashuvchan elementning moslashuvchan qisqarish faktorini o'rnatadi. Agar barcha egiluvchan elementlarning o'lchami egiluvchan konteynerdan kattaroq bo'lsa, elementlar egiluvchan kichraytirishga mos ravishda kichrayadi. -->
-
-10. ## Display Grid
-
-    # grid-template-rows: 100px 100px;
-
-    # grid-template-columns: 100px 100px;
-
-    # grid-template: repeat(3, 100px) / repeat(2, 100px);
-
-    <!-- box larga tasir qiladi-->
-
-    # justify-items: left | center | right
-
-    # align-items: top | center | bottom
-
-    <!-- containerga tasir qiladi-->
-
-    # justify-content: left | center | right;
-
-    # align-content: top | center | bottom;
-
-    <!-- oraliq berish -->
-
-    # row-gap | column-gap | gap
-
-    <!-- panjaralarni birlashtirish -->
-
-    # grid-row | grid-column
-
-    <!--# Eslatmalar -->
-
-# `list-style none`
-
-# `clearfix => cf`
+8. ## Layout
