@@ -1,28 +1,47 @@
-1. ## Position: static | sticky 👍
+1.  ## Media Query
+2.  ## Fonts
 
-2. ## element size width | height: 100% 👍
+    `Tipografiya - bu yozma tilni tushunarli , o'qilishi oson va ko'rsatilganda jozibali qilish uchun turni tartibga solish san'ati va texnikasi . `
 
-3. ## Flexbox 👍
+    # font-family `serif | san-serif | monospace` 👍
 
-   # flex-basic
+    # font-weight 👍
 
-   # flex-grow
+    # font-style 👍
 
-   # flex-shrink
+    # line-height 👍
 
-   # order
+    # text-align: `center | left | right | justify` 👍
 
-4. ## Grid `fr` 👍
+    # letter-spacing:-1px; 👍
 
-5. ## visibility: visible; 👍
+    # font formats: TTF | OTF | EOT | WOFF | WOFF2.0 👍
 
-6. ## visibility:hidden vs display:none vs overflow:hidden 👍
+    # font-display: auto | block | swap | fallback
 
-7. ## css variable `:root {
+    # <!-- todo: fallback: avtomatik va almashtirish qiymatlari o'rtasida kelishuv vazifasini bajaradi. Brauzer matnni taxminan 100 ms davomida yashiradi va agar shrift hali yuklab olinmagan bo'lsa, zaxira matndan foydalanadi. Yuklab olingandan so'ng u yangi shriftga o'tadi, lekin faqat qisqa almashtirish davrida (ehtimol 3 soniya).-->
 
-   --blue: #1e90ff;
-   --white: #ffffff;
-   }
-   `
+     <!--  @font-face {
+        font-family: "open-sans";
+        src: url("fonts/open-sans/opensans-bold-webfont.woff2") format("woff2"),
+          url("fonts/open-sans/opensans-bold-webfont.woff") format("woff");
+        font-weight: normal;
+        font-style: normal;
+    } -->
 
-8. ## Layout
+3.  ## Grid
+
+    # minmax((a)px,(b)px)
+
+    # repeat(auto-fit,minmax((a)px,(b)px))
+
+    # repeat(auto-fill,minmax((a)px,(b)px))
+
+    <!-- https://flexboxfroggy.com/ -->
+    <!-- https://cssgridgarden.com/ -->
+    <!-- /// -->
+    <!-- https://www.fontsquirrel.com/ -->
+    <!-- https://www.fonts.com/ -->
+    <!-- https://www.myfonts.com/ -->
+    <!-- type-scale.com -->
+    <!-- https://fonts.adobe.com/ -->
