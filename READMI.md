@@ -1,47 +1,45 @@
-1.  ## Media Query
-2.  ## Fonts
+1.  ## text
 
-    `Tipografiya - bu yozma tilni tushunarli , o'qilishi oson va ko'rsatilganda jozibali qilish uchun turni tartibga solish san'ati va texnikasi . `
+    # text-align
 
-    # font-family `serif | san-serif | monospace` 👍
+    # text-decoration
 
-    # font-weight 👍
+    # text-transform
 
-    # font-style 👍
+    <!-- sarlavha uchun joy -->
 
-    # line-height 👍
+    # text-indent:16px
 
-    # text-align: `center | left | right | justify` 👍
+    # white-space: nowrap | wrap
 
-    # letter-spacing:-1px; 👍
+2.  ## Images
 
-    # font formats: TTF | OTF | EOT | WOFF | WOFF2.0 👍
+    # png | svg | webp
 
-    # font-display: auto | block | swap | fallback
+    <!--# background-image -->
 
-    # <!-- todo: fallback: avtomatik va almashtirish qiymatlari o'rtasida kelishuv vazifasini bajaradi. Brauzer matnni taxminan 100 ms davomida yashiradi va agar shrift hali yuklab olinmagan bo'lsa, zaxira matndan foydalanadi. Yuklab olingandan so'ng u yangi shriftga o'tadi, lekin faqat qisqa almashtirish davrida (ehtimol 3 soniya).-->
+    # background-image:url() ;
 
-     <!--  @font-face {
-        font-family: "open-sans";
-        src: url("fonts/open-sans/opensans-bold-webfont.woff2") format("woff2"),
-          url("fonts/open-sans/opensans-bold-webfont.woff") format("woff");
-        font-weight: normal;
-        font-style: normal;
-    } -->
+    # background-repeat: repeat | no-repeat | repeat-x | repeat-y;
 
-3.  ## Grid
+    # background-position: 100px | left ... bottom | center;
 
-    # minmax((a)px,(b)px)
+    # background-size: 200px 200px | cover;
 
-    # repeat(auto-fit,minmax((a)px,(b)px))
+    # background-attachment: fixed;
 
-    # repeat(auto-fill,minmax((a)px,(b)px))
+    <!-- b-attachment viewportda qotadi -->
 
-    <!-- https://flexboxfroggy.com/ -->
-    <!-- https://cssgridgarden.com/ -->
-    <!-- /// -->
-    <!-- https://www.fontsquirrel.com/ -->
-    <!-- https://www.fonts.com/ -->
-    <!-- https://www.myfonts.com/ -->
-    <!-- type-scale.com -->
-    <!-- https://fonts.adobe.com/ -->
+    # img clippy
+
+    <!-- clippy img kerakli shaklda kesib olish -->
+
+    # filter: blur(5px) | contrast(100%) | grayscale(80%) | hue-rotate(90deg) |
+
+<!--# Qo'shimcha -->
+
+## https://www.flaticon.com/
+
+## https://bennettfeely.com/clippy/
+
+## https://hype4.academy/tools/glassmorphism-generator
