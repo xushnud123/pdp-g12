@@ -25,17 +25,20 @@
 
 header {
   width: 100vw;
-  min-height: 100vh;
   padding-top: 10px;
 }
 
+header .nav__container {
+  border-bottom: 1px solid gray;
+}
 header nav {
+  max-width: 1200px;
+  margin: 0 auto;
   width: 100%;
-  padding: 14px 60px;
+  padding: 14px 0px;
   display: flex;
   gap: 30px;
   align-items: center;
-  border-bottom: 1px solid gray;
 }
 
 nav .logo {
@@ -156,7 +159,9 @@ nav .menu .nav-ul .nav-li {
 /* # left */
 
 .hero {
-  padding: 57px 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 57px 0px;
   display: grid;
   grid-template-columns: 1.4fr 1fr;
   gap: 98px;
@@ -333,8 +338,13 @@ nav .menu .nav-ul .nav-li {
 
 /* # Amazing Section */
 .amazing {
-  padding: 90px 60px;
   background: var(--bg-color--2);
+}
+
+.amazing__container {
+  padding: 90px 0px;
+  max-width: 1200px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1.4fr 1fr 1.2fr;
   gap: 86px;
@@ -377,7 +387,9 @@ nav .menu .nav-ul .nav-li {
 /* # Collection Section */
 
 .collection {
-  padding: 90px 60px;
+  padding: 90px 0px;
+  max-width: 1200px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1.4fr 1.35fr 1.25fr;
   gap: 53px;
