@@ -36,6 +36,10 @@
 
     # filter: blur(5px) | contrast(100%) | grayscale(80%) | hue-rotate(90deg) |
 
+    # Physical resolution vs Logical resolution
+
+    # DPR Physical/Logical
+
 <!--# Qo'shimcha -->
 
 ## https://www.flaticon.com/
@@ -43,3 +47,7 @@
 ## https://bennettfeely.com/clippy/
 
 ## https://hype4.academy/tools/glassmorphism-generator
+
+## https://learncssgrid.com/
+
+## https://cssreference.io/property/grid-auto-rows/
