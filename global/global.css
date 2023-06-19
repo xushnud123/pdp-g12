@@ -1,5 +1,9 @@
 :root {
   --color--1: #fff;
+  --color--2: #14171f;
+  --color--3: #f9995d;
+  --color--4: #292e3d;
   --bg-color--1: rgba(255, 255, 255, 0.2);
   --bg-color--2: rgba(217, 224, 236, 1);
+  --bg-color--3: #3559c7;
 }
