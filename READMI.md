@@ -1,53 +1,42 @@
-1.  ## text
+1.  ## Transformations
 
-    # text-align
+    # rotate() 👍
 
-    # text-decoration
+    # scale() 👍
 
-    # text-transform
+    # skew() `skewY | skewX` 👍
 
-    <!-- sarlavha uchun joy -->
+    # translate() `translateX() | translateY() | translateZ()`👍
 
-    # text-indent:16px
+    # perspective() 👍
 
-    # white-space: nowrap | wrap
+2.  ## Transform origin 👍
 
-2.  ## Images
+3.  ## Transition
 
-    # png | svg | webp
+    # transition-property 👍
 
-    <!--# background-image -->
+    # transition-duration 👍
 
-    # background-image:url() ;
+    # transition-delay 👍
 
-    # background-repeat: repeat | no-repeat | repeat-x | repeat-y;
+    # timing function `linear | ease-in | ease-out` 👍
 
-    # background-position: 100px | left ... bottom | center;
+    # cubic-bezier
 
-    # background-size: 200px 200px | cover;
+4.  ## Animations
 
-    # background-attachment: fixed;
+    # @keyframes{}
 
-    <!-- b-attachment viewportda qotadi -->
+    # animation-name
 
-    # img clippy
+    # animation-duration
 
-    <!-- clippy img kerakli shaklda kesib olish -->
+    # animation-iteration-count
 
-    # filter: blur(5px) | contrast(100%) | grayscale(80%) | hue-rotate(90deg) |
+    # animation-delay
 
-    # Physical resolution vs Logical resolution
+    # animation-direction
 
-    # DPR Physical/Logical
-
-<!--# Qo'shimcha -->
-
-## https://www.flaticon.com/
-
-## https://bennettfeely.com/clippy/
-
-## https://hype4.academy/tools/glassmorphism-generator
-
-## https://learncssgrid.com/
-
-## https://cssreference.io/property/grid-auto-rows/
+5.  ## https://animate.style/
+6.  ## https://cubic-bezier.com/
