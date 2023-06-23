@@ -36,7 +36,13 @@
 
     # animation-delay
 
-    # animation-direction
+    # animation-direction `normal | reverse |alternate | alternate-reverse`
+
+    # animation-fill-mode `none | forwards | backwards | both`
+
+    # from{} and to{}
+
+    # global animation key
 
 5.  ## https://animate.style/
 6.  ## https://cubic-bezier.com/
