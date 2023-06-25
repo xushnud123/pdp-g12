@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Futura Bk BT";
+  src: url("../fonts/FuturaBookBT.woff2");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Futura Hv BT";
+  src: url("../fonts/FuturaHeavyBT.woff2");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Futura LT";
+  src: url("../fonts/FuturaLT-regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Futura LT";
+  src: url("../fonts/futuralt_bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Futura Md BT";
+  src: url("../fonts/FutuMd.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Futura Md BT";
+  src: url("../fonts/FuturaMediumBT.ttf");
+  font-weight: 500;
+}
+
+:root {
+  --color-1: #ffffff;
+  --color-2: #000000;
+  --color-3: #ba0000;
+  --color-4: #7b0000;
+  --color-5: #8d0000;
+  --color-6: #9a0000;
+  --color-7: #ad0000;
+  --color-8: #d7381f;
+  --color-9: #ff7b5c;
+  --color-10: #ffa07a;
+  --color-11: #ffc88b;
+  --color-circle-1: #973030;
+  --color-circle-2: #9b0e95;
+  --color-circle-3: #002b7b;
+  --color-circle-4: #002b7b;
+  --color-circle-5: #002b7b;
+  --color-circle-6: #002b7b;
+}
+
+body {
+  width: 100vw;
+  max-width: 100%;
+}
