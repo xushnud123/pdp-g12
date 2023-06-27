@@ -1,48 +1,47 @@
-1.  ## Transformations
+1.  ## JavaScript
 
-    # rotate() 👍
+    # What is Javascript
 
-    # scale() 👍
+    # clg
 
-    # skew() `skewY | skewX` 👍
+    # script tag `<script></script>`
 
-    # translate() `translateX() | translateY() | translateZ()`👍
+    # {name}.js file
 
-    # perspective() 👍
+2.  ## Variable
 
-2.  ## Transform origin 👍
+    # let type:`all`
 
-3.  ## Transition
+    # const type:`all` `O'zgarmas qiymatlarni saqlash uchun va elon qilingan joyida qiymat beriladi`
 
-    # transition-property 👍
+3.  ## Name Conventions
 
-    # transition-duration 👍
+    # camelCase
 
-    # transition-delay 👍
+    # PascalCase
 
-    # timing function `linear | ease-in | ease-out` 👍
+    # snake_case
 
-    # cubic-bezier
+    # kebab-case
 
-4.  ## Animations
+    # UPPERFLATCASE
 
-    # @keyframes{}
+    # 3year || first&Name 😡
 
-    # animation-name
+4.  ## DATA TYPES
 
-    # animation-duration
+    # Number
 
-    # animation-iteration-count
+    # String
 
-    # animation-delay
+    # Boolean
 
-    # animation-direction `normal | reverse |alternate | alternate-reverse`
+    # Undefined
 
-    # animation-fill-mode `none | forwards | backwards | both`
+    # Null
 
-    # from{} and to{}
+    # Symbol
 
-    # global animation key
+    # BigInt
 
-5.  ## https://animate.style/
-6.  ## https://cubic-bezier.com/
+    # typeof variable
