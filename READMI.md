@@ -241,7 +241,7 @@
 
 # 19. Coding Challenge #4
 
-6?. # Free: JS Coding Challenger
+6?. # https://www.jschallenger.com/javascript-basics
 
 7?. # https://exercism.org/
 
