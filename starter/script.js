@@ -1,46 +1,30 @@
-let age = 23;
-// const birthYear = 2000;
-// console.log(age);
-// age = "Xushnudbek";
-// console.log(birthYear);
+// "use strict";
+var salom = "hey";
 
-// if (age === 23) {
-//   console.log("age =", 23);
+// const xushnud = [
+//   "Xushnudbek",
+//   "Raimov",
+//   true,
+//   2023 - 2000,
+//   ["teacher", "frontend developer"],
+//   ["Jonas", "Ronaldo", "Arslon"],
+// ];
+
+// for (let i = xushnud.length - 1; i >= 0; i--) {
+//   console.log(xushnud[i]);
 // }
 
-// console.log("Xushnudbek");
-
-// let firstName = null;
-
-// const BIRTHYEAR = 2000;
-
-// let b = false;
-
-// console.log(21321232121321321321323211331121221321);
-
-// console.log(
-//   Boolean(""),
-//   Boolean(undefined),
-//   Boolean(null),
-//   Boolean(0),
-//   false,
-//   Boolean(NaN)
-// );
-
-// console.log(
-//   Boolean({}),
-//   Boolean([]),
-//   Boolean("Xushnudbek"),
-//   Boolean(function () {}),
-//   true
-// );
-// const favorite = prompt("Sevimli 😍 raqamingizni kiriting 👇");
-// if (favorite == 7) {
-//   console.log("Demak siz Ronaldo ni muhlisisiz!🥳");
+// for (let m = 1; m <= 3; m++) {
+//   console.log(`----- ${m} mashq -----`);
+//   for (let i = 1; i <= 5; i++) {
+//     console.log(`${i} marta ko'tarish 🏋️‍♂️`);
+//   }
 // }
-// if (Number(favorite) === 10) {
-//   console.log("Demak siz Messini ni muhlisisiz!🥳");
-// }
-// if (!favorite) {
-//   console.log("Raqam kiritmadingiz❓");
-// }
+
+let dice = Math.trunc(Math.random() * 6) + 1;
+
+while (dice !== 6) {
+  console.log(`Bizga tushgan raqam ${dice}`);
+  dice = Math.trunc(Math.random() * 6) + 1;
+  if (dice === 6) console.log(`6 raqami tushdi o'yin tugadi...`);
+}
