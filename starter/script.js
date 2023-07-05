@@ -128,3 +128,98 @@
 // if (favorite) {
 //   console.log("Raqam kiritmadingiz❓");
 // }
+
+// const middleOne = (97 + 112 + 101) / 3;
+// const middleTwo = (109 + 95 + 123) / 3;
+
+// console.log(middleOne, middleTwo);
+
+// if (middleOne > middleTwo) {
+//   if (middleOne >= 100) {
+//     console.log("Delfinlar g'alaba qozondi 🎉");
+//   } else {
+//     console.log("Durang 🤝");
+//   }
+// } else if (middleOne < middleTwo) {
+//   if (middleTwo >= 100) {
+//     console.log("Koalalar g'alaba qozondi 🎉");
+//   } else {
+//     console.log("Durang 🤝");
+//   }
+// } else if (middleOne === middleTwo) {
+//   if (middleOne > 100) {
+//     console.log("Durang 🤝");
+//   }
+// }
+
+// if (middleOne > middleTwo && middleOne >= 100) {
+//   console.log("Delfinlar g'alaba qozondi 🎉");
+// } else if (middleOne < middleTwo && middleTwo >= 100) {
+//   console.log("Koalalar g'alaba qozondi 🎉");
+// } else if (middleOne === middleTwo && middleOne > 100) {
+//   console.log("Durang 🤝");
+// } else console.log("Hech kim g'alaba qozonmadi");
+
+// # switch
+// const key = Number(prompt("Qiymat kiriting"));
+// switch (key) {
+//   case 1:
+//     console.log("Sunday");
+//     break;
+//   case 2:
+//     console.log("Monday");
+//     break;
+//   case 3:
+//     console.log("Tuesday");
+//     break;
+//   case 4:
+//     console.log("Wednesday");
+//     break;
+//   case 5:
+//     console.log("Thursday");
+//     break;
+//   case 6:
+//     console.log("Friday");
+//     break;
+//   case 7:
+//     console.log("Saturday");
+//     break;
+//   default:
+//     console.log("bunday hafta kubi yo'q");
+// }
+
+// # Statements and Expressions
+
+// console.log(true && false);
+
+// console.log(`${}`)
+
+// console.log(`Mening yoshim ${2023 - 2000}`);
+
+// # The Conditional Ternary Operator
+
+// const age = 23;
+
+// if (age > 10) {
+//   console.log("Xushnudbek");
+// } else console.log("Raimov");
+
+// age > 10 ? console.log("Xushnudbek") : console.log("Raimov");
+
+// console.log(`${age > 10 ? "Xushnudbek" : "Raimov"}`);
+
+// # Code challenge 4
+
+// const price = Number(prompt("Qiymatni kiriting"));
+
+// const priceCount = price > 50 && price < 300 ? price * 0.85 : price * 0.8;
+
+// console.log("Price", priceCount);
+
+// if (price > 50 && price < 300) {
+//   console.log(first);
+// } else {
+//   console.log(first);
+// }
+
+// price - price * 0.15 === 0.85 * price;
