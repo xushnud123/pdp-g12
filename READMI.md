@@ -59,4 +59,14 @@
 
 ## 8) Highscore: Eng tez topgani.
 
+# 4. Modal Window
+
+> ## 1) `for loop` and `forEach`
+>
+> ## 2) `querySelectorAll` - barcha selectorlarning NodeList nomlangan array o'xshash ro'yxatini beradi.
+>
+> ## 3) `classList`,`contains`,`add`,`remove`,`toggle`
+>
+> ## 4) `Handling an Esc Keypress Event` - klaviatura hodisalari. `keydown`
+
 # https://guess-numbers.netlify.app/
