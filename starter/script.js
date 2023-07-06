@@ -21,10 +21,10 @@ var salom = "hey";
 //   }
 // }
 
-let dice = Math.trunc(Math.random() * 6) + 1;
+// let dice = Math.trunc(Math.random() * 6) + 1;
 
-while (dice !== 6) {
-  console.log(`Bizga tushgan raqam ${dice}`);
-  dice = Math.trunc(Math.random() * 6) + 1;
-  if (dice === 6) console.log(`6 raqami tushdi o'yin tugadi...`);
-}
+// while (dice !== 6) {
+//   console.log(`Bizga tushgan raqam ${dice}`);
+//   dice = Math.trunc(Math.random() * 6) + 1;
+//   if (dice === 6) console.log(`6 raqami tushdi o'yin tugadi...`);
+// }
