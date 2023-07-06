@@ -43,7 +43,7 @@
 
 # Game conditions 🎮:
 
-## 1) kiritilgan qiymatni bo'sh emasligini tekshirish
+## 1) Kiritilgan qiymatni bo'sh emasligini tekshirish
 
 ## 2) Tasodifiy yashirin raqam yaratish
 
@@ -52,5 +52,11 @@
 ## 4) Noto'g'ri raqamda ballni(score) pasaytirsh
 
 ## 5) Imkoniyatlar soni tugaganini bildirish
+
+## 6) O'yinchi yutganidan background-color ni o'zgartirish
+
+## 7) Coding Challenge: O'yinni qayta o'rnatish.
+
+## 8) Highscore: Eng tez topgani.
 
 # https://guess-numbers.netlify.app/
