@@ -429,5 +429,3 @@
 # 3?. https://javascript.info/function-basics
 
 # 4?. https://www.freecodecamp.org/news/data-structures-in-javascript-with-examples/
-
-# 5 https://the-winter.github.io/codingjs/

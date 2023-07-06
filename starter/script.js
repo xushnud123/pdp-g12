@@ -28,5 +28,3 @@ while (dice !== 6) {
   dice = Math.trunc(Math.random() * 6) + 1;
   if (dice === 6) console.log(`6 raqami tushdi o'yin tugadi...`);
 }
-
-console.log(yearsUntilRetirement(1555, "erkak"));
