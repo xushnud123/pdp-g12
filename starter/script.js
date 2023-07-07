@@ -1,3 +1,4 @@
+"use strict";
 // let age = 23;
 // let name = "Xushnudbek";
 // let hasDriversLicense = false;
@@ -223,3 +224,7 @@
 // }
 
 // price - price * 0.15 === 0.85 * price;
+
+const name = "Xushnudbek";
+
+console.log(name.slice(0, name.length));
